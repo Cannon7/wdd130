@@ -5,9 +5,25 @@ body
 .sec1
 {
     background-color: beige;
+    grid-column: 1;
+}
+header
+{
+    background-color: blueviolet;
+    grid-column: 2/5;
+}
+p
+{
+    background-color: aqua;
+    grid-column: 2/4;
+}
+footer{
+    background-color: red;
+    grid-column: 1/5;
 }
 main
 {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
 }
