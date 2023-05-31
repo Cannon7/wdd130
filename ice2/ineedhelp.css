@@ -1,0 +1,13 @@
+body
+{
+    max-width: 100%;
+}
+h1
+{
+    max-width: 25%;
+    margin: 50px;
+    display: grid;
+    grid-row: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
