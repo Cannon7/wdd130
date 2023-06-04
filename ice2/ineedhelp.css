@@ -1,17 +1,31 @@
 body
 {
-    max-width: 100%;
+    width: 1080px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 #byeah
 {
-    max-width: 100%;
+    width: 3fr;
+    grid-column: 1/4;
+    grid-row: 1;
 }
-h1
+#desk
 {
-    max-width: 25%;
-    margin: 50px;
-    display: grid;
-    grid-row: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2em;
+    grid-column: 3;
+    grid-row: 1;
+    width: 330px;
+}
+#circle
+{
+    width: 330px;
+    grid-column: 2;
+    grid-row: 1;
+}
+#think
+{
+    width: 330px;
+    grid-column: 1;
+    grid-row: 1;
 }
