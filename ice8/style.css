@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    gap: 4em;
+}
+img
+{
+    grid-column: 1;
+    width: 100%;
+}
+#maindiv
+{
+    grid-column: 2;
+    font-family: 'Geologica', sans-serif;
+    color: gray;
+    text-align: center;
+}
+input
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+h1
+{
+    font-size: 50px;
+}
+p
+{
+    font-size: 25px;
+}
+#check
+{
+    width: 20px;
+}
+#sub
+{
+    align-content: center;
+    width: 200px;
+    height: 75px;
+    background-color: orange;
+    color: white;
+    border-radius: 7px;
+    font-size: 25px;
+}
+

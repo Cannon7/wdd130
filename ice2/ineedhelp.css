@@ -1,6 +1,6 @@
 body
 {
-    width: 1080px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -14,18 +14,27 @@ body
 #desk
 {
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 2;
     width: 330px;
+    border-radius: 100%;
+    border-color: grey;
+    background-color: lightgray;
 }
 #circle
 {
-    width: 330px;
+    width: 300px;
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 2;
+    border-radius: 100%;
+    border-color: grey;
+    background-color: lightgray;
 }
 #think
 {
     width: 330px;
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
+    border-radius: 100%;
+    border-color: grey;
+    background-color: lightgray;
 }
