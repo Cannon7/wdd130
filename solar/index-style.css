@@ -44,7 +44,20 @@ body {
 }
 #para
 {
+    grid-column: 1;
+    grid-row: 2;
     float: inline-start;
+}
+#howmake
+{
+    grid-column: 1/4;
+    grid-row: 3;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    justify-self: center;
+
+
 }
 header {
     background-color:#053225ff;
